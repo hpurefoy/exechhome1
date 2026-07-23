@@ -32,13 +32,13 @@ export default function FinalCTA() {
             Ready to Sell for More, in Less Time, with Less Hassle?
           </motion.h2>
           <motion.p variants={fadeUp} className="mt-6 text-balance text-lg text-blue-50/85">
-            Schedule your free 15-minute phone consultation &mdash;
-            you&rsquo;ll walk away with a clearer plan than you had five
-            minutes ago, plus my free &ldquo;9 Tactics to Add Up to $5,000
-            to Your Home&rsquo;s Value&rdquo; guide.
+            Schedule your free phone consultation &mdash; you&rsquo;ll
+            walk away with a clearer plan than you had five minutes ago,
+            plus my free &ldquo;9 Tactics to Add Up to $5,000 to Your
+            Home&rsquo;s Value&rdquo; guide.
           </motion.p>
           <motion.div variants={fadeUp} className="mt-10 flex justify-center">
-            <CTAButton>Schedule the 15-Minute Phone Consultation &rarr;</CTAButton>
+            <CTAButton>Schedule Your Free Phone Consultation &rarr;</CTAButton>
           </motion.div>
           <motion.p
             variants={fadeUp}

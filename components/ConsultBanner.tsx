@@ -32,7 +32,7 @@ export default function ConsultBanner() {
               Let&rsquo;s just talk about your home &mdash; by phone.
             </motion.h3>
             <motion.p variants={fadeUp} className="mt-6 text-balance text-lg text-blue-50/85">
-              A free, no-obligation 15-minute phone consultation. I&rsquo;ll
+              A free, no-obligation phone consultation. I&rsquo;ll
               walk you through all 7 steps of the Executive Home Launch
               System&trade;, and you&rsquo;ll get my &ldquo;9 Tactics to Add
               Up to $5,000 to Your Home&rsquo;s Value&rdquo; guide free for
@@ -41,7 +41,7 @@ export default function ConsultBanner() {
             </motion.p>
             <motion.div variants={fadeUp} className="mt-9 flex justify-center">
               <CTAButton>
-                Click Here to Schedule the 15-Minute Phone Consultation &rarr;
+                Click Here to Schedule Your Free Phone Consultation &rarr;
               </CTAButton>
             </motion.div>
           </div>

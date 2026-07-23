@@ -72,7 +72,7 @@ export default function Nav() {
             {PHONE_DISPLAY}
           </a>
           <CTAButton size="md" variant="anchor">
-            Free 15-Min Consultation
+            Free Consultation
           </CTAButton>
         </div>
       </Container>

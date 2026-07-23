@@ -120,12 +120,12 @@ export default function SevenSteps() {
         >
           <motion.p variants={fadeUp} className="text-balance text-lg text-navy-deep">
             Want to see how these 7 steps would work for you? Schedule a
-            free 15-minute phone consultation and I&rsquo;ll walk you
-            through them personally &mdash; plus you&rsquo;ll get my 9
-            Tactics guide free.
+            free phone consultation and I&rsquo;ll walk you through them
+            personally &mdash; plus you&rsquo;ll get my 9 Tactics guide
+            free.
           </motion.p>
           <motion.div variants={fadeUp} className="mt-7">
-            <CTAButton>Schedule the 15-Minute Phone Consultation &rarr;</CTAButton>
+            <CTAButton>Schedule Your Free Phone Consultation &rarr;</CTAButton>
           </motion.div>
         </motion.div>
       </Container>

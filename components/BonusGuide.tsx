@@ -40,9 +40,9 @@ export default function BonusGuide() {
           </motion.h2>
           <motion.p variants={fadeUp} className="mt-6 max-w-xl text-balance text-lg text-blue-50/85">
             You don&rsquo;t need a $30,000 renovation to sell for top
-            dollar. Schedule your free 15-minute phone consultation, and
+            dollar. Schedule your free phone consultation, and
             I&rsquo;ll send you this guide &mdash; which 9 tactics actually
-            add value, and which ones waste your money.
+            add value.
           </motion.p>
 
           <motion.ul variants={staggerContainer(0.12)} className="mt-8 flex flex-col gap-4">
@@ -59,7 +59,7 @@ export default function BonusGuide() {
           </motion.ul>
 
           <motion.div variants={fadeUp} className="mt-9">
-            <CTAButton>Schedule the 15-Minute Phone Consultation &rarr;</CTAButton>
+            <CTAButton>Schedule Your Free Phone Consultation &rarr;</CTAButton>
           </motion.div>
         </motion.div>
 

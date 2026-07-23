@@ -71,13 +71,13 @@ export default function Hero() {
             variants={fadeUpSmall}
             className="mt-4 max-w-lg text-balance text-sm text-blue-100/60 sm:text-base"
           >
-            Click below to schedule a free 15-minute phone consultation
-            &mdash; I&rsquo;ll personally go over all 7 steps with you. No
+            Click below to schedule a free phone consultation &mdash;
+            I&rsquo;ll personally go over all 7 steps with you. No
             pressure, no obligation.
           </motion.p>
 
           <motion.div variants={fadeUpSmall} className="mt-9">
-            <CTAButton>Schedule the 15-Minute Phone Consultation &rarr;</CTAButton>
+            <CTAButton>Free Consultation &rarr;</CTAButton>
           </motion.div>
 
           <motion.div
@@ -117,7 +117,7 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
           variants={scaleIn}
-          className="relative mx-auto w-full max-w-sm lg:max-w-none"
+          className="relative mx-auto w-full max-w-xs lg:max-w-sm"
         >
           <motion.div style={{ y: imageY }} className="relative">
             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[1.75rem] border-4 border-white/10 bg-navy shadow-card">
