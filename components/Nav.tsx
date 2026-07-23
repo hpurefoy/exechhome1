@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Container from "./Container";
-import CTAButton from "./CTAButton";
 import { PHONE_DISPLAY, PHONE_HREF } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
@@ -43,7 +42,8 @@ export default function Nav() {
               Hank Purefoy
             </span>
             <span className="mt-1 text-[10px] font-medium uppercase tracking-[0.18em] text-blue-100/60 sm:text-[11px]">
-              REALTOR&reg; &middot; eXp Realty
+              REALTOR&reg; &middot; The Purefoy Realty Group &mdash; Powered
+              by eXp
             </span>
           </span>
         </a>
@@ -66,14 +66,11 @@ export default function Nav() {
           <a
             href={PHONE_HREF}
             data-cursor-hover
-            className="hidden text-sm font-semibold text-white sm:inline-flex sm:items-center sm:gap-2"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-white"
           >
             <PhoneIcon />
             {PHONE_DISPLAY}
           </a>
-          <CTAButton size="md" variant="anchor">
-            Free Consultation
-          </CTAButton>
         </div>
       </Container>
     </header>

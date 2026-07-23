@@ -4,14 +4,8 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Container from "./Container";
 import CTAButton from "./CTAButton";
-import AgentHeadshot from "./AgentHeadshot";
+import SoldHomeVideo from "./SoldHomeVideo";
 import { fadeUp, fadeUpSmall, staggerContainer, scaleIn } from "@/lib/animations";
-
-const TRUST_ITEMS = [
-  "Licensed REALTOR® since 2005",
-  "Fortune 500 Marketing & Finance Background",
-  "Metro Atlanta Specialist",
-];
 
 export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -95,22 +89,6 @@ export default function Hero() {
               </span>
             </p>
           </motion.div>
-
-          <motion.ul
-            variants={staggerContainer(0.1)}
-            className="mt-9 flex flex-col flex-wrap gap-x-8 gap-y-3 sm:flex-row"
-          >
-            {TRUST_ITEMS.map((item) => (
-              <motion.li
-                key={item}
-                variants={fadeUpSmall}
-                className="flex items-center gap-2 text-sm font-medium text-blue-50/80"
-              >
-                <CheckIcon />
-                {item}
-              </motion.li>
-            ))}
-          </motion.ul>
         </motion.div>
 
         <motion.div
@@ -121,13 +99,7 @@ export default function Hero() {
         >
           <motion.div style={{ y: imageY }} className="relative">
             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[1.75rem] border-4 border-white/10 bg-navy shadow-card">
-              <AgentHeadshot />
-            </div>
-            <div className="mt-4 rounded-2xl border border-white/10 bg-white/5 px-6 py-4 backdrop-blur-sm">
-              <p className="font-sans text-lg font-bold text-white">Hank Purefoy</p>
-              <p className="text-xs font-medium uppercase tracking-[0.18em] text-blue-100/60">
-                REALTOR&reg; | eXp Realty
-              </p>
+              <SoldHomeVideo />
             </div>
             <div
               className="absolute -bottom-6 -left-6 -z-10 h-40 w-40 rounded-full bg-gold-gradient opacity-80 blur-2xl"
@@ -137,27 +109,5 @@ export default function Hero() {
         </motion.div>
       </Container>
     </section>
-  );
-}
-
-function CheckIcon() {
-  return (
-    <svg
-      width="18"
-      height="18"
-      viewBox="0 0 24 24"
-      fill="none"
-      className="shrink-0 text-gold"
-      aria-hidden
-    >
-      <circle cx="12" cy="12" r="11" stroke="currentColor" strokeWidth="1.5" opacity="0.35" />
-      <path
-        d="M7.5 12.5l3 3 6-6.5"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
   );
 }
